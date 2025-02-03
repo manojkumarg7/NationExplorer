@@ -10,7 +10,7 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route path="/" element={<SplashScreen />} />
+            <Route path="/NationExplorer/" element={<SplashScreen />} />
             <Route path="/searchcomp" element={<SearchPage />} />
             <Route path="/country/:countryId" element={<CountryDetails />} />
           </Routes>
