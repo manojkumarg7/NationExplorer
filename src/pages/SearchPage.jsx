@@ -12,10 +12,12 @@ const SearchPage = () => {
   if (loading) return <Loading />;
   if (error) return <Error message={error} />;
   return (
-    <div>
-      <Search />
-      <DataDispaly data={data} />;
-    </div>
+    <React.Fragment>
+      <div className="position-sticky top-0 z-1">
+        <Search />
+      </div>
+      {/* <DataDispaly data={data} />; */}
+    </React.Fragment>
   );
 };
 
