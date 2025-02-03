@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import SplashScreen from "./components/SplashScreen/SplashScreen";
 import SearchPage from "./pages/SearchPage";
