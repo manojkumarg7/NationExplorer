@@ -57,7 +57,7 @@ const CountryDetails = ({ data }) => {
             <th>Alternative spellings</th>
             <td>
               {country?.altSpellings.map((v, i) => (
-                <span>{v},</span>
+                <span key={i}>{v},</span>
               ))}
             </td>
           </tr>
@@ -141,12 +141,19 @@ const CountryDetails = ({ data }) => {
           </tr>
           <tr>
             <th>Borders</th>
-            <td className="text-info">
-              {country?.borders.map((v, i) => (
-                <span>{v} ,</span>
+            {/* <td className="text-info"> */}
+            {/* <td className="text-info">{country?.borders}</td> */}
+            {/* {country?.borders.map((v, i) => (
+                <span key={i}>{v} ,</span>
               ))}
-              ,
+              , */}
+            <td>
+              <p>manoj</p>
+              {/* {country?.borders.map((v, i) => {
+                return <p>manoj</p>;
+              })} */}
             </td>
+            {/* </td> */}
           </tr>
         </tbody>
       </Table>
