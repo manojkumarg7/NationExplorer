@@ -1,0 +1,16 @@
+.sub-country-name {
+  font-size: 12px;
+}
+
+.country-card {
+  cursor: pointer;
+}
+
+.country-name {
+  background-color: #29b6f6;
+  color: white;
+}
+
+.country-card:hover .country-name {
+  background-color: #0288d1;
+}
