@@ -9,7 +9,7 @@ const DataDispaly = ({ data }) => {
 
   const handleCardClick = (countryId) => {
     console.log("Card clicked with ID:", countryId);
-    navigate(`/NationExplorer/country/${countryId}`);
+    navigate(`/nationExplorer/country/${countryId}`);
   };
 
   return (

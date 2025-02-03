@@ -10,10 +10,10 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route path="/NationExplorer" element={<SplashScreen />} />
-            <Route path="/NationExplorer/searchcomp" element={<SearchPage />} />
+            <Route path="/nationExplorer" element={<SplashScreen />} />
+            <Route path="/nationexplorer/searchcomp" element={<SearchPage />} />
             <Route
-              path="/NationExplorer/country/:countryId"
+              path="/nationexplorer/country/:countryId"
               element={<CountryDetails />}
             />
           </Routes>

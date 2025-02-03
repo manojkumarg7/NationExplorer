@@ -15,7 +15,7 @@ const SplashScreen = () => {
           NationExplorer!{" "}
         </p>
 
-        <Link to="/NationExplorer/searchcomp" reloadDocument={true}>
+        <Link to="/nationexplorer/searchcomp" reloadDocument={true}>
           <Button
             variant="primary"
             className="d-block d-sm-none mx-auto  mt-3"
@@ -25,7 +25,7 @@ const SplashScreen = () => {
           </Button>
         </Link>
 
-        <Link to="/NationExplorer/searchcomp" reloadDocument={true}>
+        <Link to="/nationexplorer/searchcomp" reloadDocument={true}>
           <Button variant="primary" className="d-sm-block d-none mx-auto mt-3">
             Unlock the world’s wonders
             <MdArrowForwardIos />
